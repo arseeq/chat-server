@@ -9,4 +9,5 @@ Things, that were completed:
 Things, that were added:
   1.	I forgot to add mutex in the previous submission. The mutex is required because there are lots of critical sections in the code;
   2.	An array for storing every client’s group index was added, because it reduces the amount of time needed to find client’s group (for LEAVE function). In previous implementation, in order to find client’s group, the program iterated through all groups and clients.
+  
   Initially, the plan was to allow to use “group cancel” function only to the group leader, but since it was easier to test the program, those lines were commented. (they are located in cancelGroup function).
